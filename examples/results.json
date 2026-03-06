@@ -1,0 +1,17 @@
+{
+  "generated_at": "2026-03-06T15:30:03.219292",
+  "hosts": [
+    {
+      "ip": "127.0.0.1",
+      "hostname": "localhost",
+      "open_ports": [
+        {
+          "port": 8000,
+          "service": "unknown",
+          "status": "open",
+          "banner": ""
+        }
+      ]
+    }
+  ]
+}
