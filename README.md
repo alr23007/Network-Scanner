@@ -10,7 +10,16 @@ A multithreaded TCP network scanner built in Python that identifies open ports a
 * Optional banner grabbing
 * CSV and JSON export of results
 
+
 ## Example
+
+Start a simple test server:
+
+```bash
+python -m http.server 8000
+```
+
+Then run the scanner:
 
 ```bash
 python network_scanner.py 127.0.0.1 --ports 8000 --banner --json results.json
